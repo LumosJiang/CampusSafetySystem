@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YOLOv5 Object Detection</title>
+</head>
+<body>
+    <h1>YOLOv5 Object Detection</h1>
+    <div>
+        <a href="{{ url_for('video_feed', source='camera') }}">本地摄像头</a> |
+        <a href="{{ url_for('video_feed', source='rtmp') }}">RTMP 视频流</a>
+    </div>
+    <img src="{{ url_for('video_feed') }}" width="800" />
+</body>
+</html>
