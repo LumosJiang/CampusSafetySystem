@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mydatabase
+    username: root
+    password: 123456
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
+
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true
+
+server:
+  port: 8081
+
+servlet:
+  multipart:
+    max-file-size:20MB
+    max-request-size:20MB
