@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blink Detection</title>
+</head>
+<body>
+    <h1>Blink Detection</h1>
+    <img src="{{ url_for('video_feed') }}" width="600">
+    <div id="message">
+        请眨眼。
+    </div>
+    <script>
+        setInterval(function() {
+            var blinksText = document.querySelector('img').getAttribute('src').split('Blinks: ')[1];
+            var blinks = parseInt(blinksText);
+            var messageDiv = document.getElementById('message');
+            if (blinks > 0) {
+                messageDiv.innerHTML = "眨眼通过";
+            } else {
+                messageDiv.innerHTML = "通过失败";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
