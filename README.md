@@ -14,3 +14,15 @@ yolov7_reid-master\person_search\weights下的为reid权重，
 yolov7_reid-master\person_search下有一个yolov7权重
 链接：https://pan.baidu.com/s/1MdmzrD5OH4m7vuRENOFTpQ 
 提取码：mlvx
+
+yolov5-5.0过大，放到百度网盘，自行下载
+链接：https://pan.baidu.com/s/13SOTzRVWqHkwFNeD4UMbuA 
+提取码：mlvx
+
+前端页面Frontend放到百度网盘。自行下载
+链接：https://pan.baidu.com/s/15Y3mPqWbHARA4oJxZDLbeA 
+提取码：mlvx
+
+数据大屏的WEB-INF放到百度网盘。自行下载。
+链接：https://pan.baidu.com/s/16xn7rblEuW5myiBY1qgPqg 
+提取码：mlvx
